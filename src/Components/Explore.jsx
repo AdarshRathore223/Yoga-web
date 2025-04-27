@@ -99,7 +99,7 @@ const Explore = () => {
             key={currentIndex} 
             src={image}
             alt={title}
-            className="w-full h-auto max-w-md object-contain opacity-0 scale-95 transition-all duration-700 ease-out"
+            className="w-full aspect-square max-w-md object-contain opacity-0 scale-95 transition-all duration-700 ease-out"
             onLoad={(e) => {
               e.target.classList.remove("opacity-0", "scale-95");
             }}
