@@ -1,9 +1,14 @@
 import img from "../assets/hero.png";
-
+import { FaAngleDoubleDown } from "react-icons/fa";
 const Hero = () => {
   return (
-    <div className="bg-[#d8efea] h-auto md:h-[60vh] shadow-[0_4px_10px_rgba(0,0,0,0.3)]">
-      <div className="flex flex-col-reverse md:flex-row items-center justify-between h-full px-6 md:px-[10%] py-6 md:py-0">
+    <div className="bg-[#d8efea] h-[100vh] shadow-[0_4px_10px_rgba(0,0,0,0.3)] relative w-full">
+      <div className="flex flex-col md:flex-row items-center justify-center h-full px-6 md:px-[10%] py-6 md:py-0">
+
+
+        <div className="absolute bottom-4 right-4 font-sec text-2xl flex gap-2 text-[#254A48] items-center fade">
+          Explore  <FaAngleDoubleDown />
+        </div>
 
         {/* Text Content */}
         <div className="flex justify-center items-center w-full md:w-1/2">
