@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
-import img from "../assets/hero.png";
 import heart from "../assets/heart.png";
 import lung from "../assets/lung.png";
 import digestive from "../assets/digestive.png";
