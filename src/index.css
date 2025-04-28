@@ -23,3 +23,7 @@
   90% { opacity: 1; cursor: pointer;}  /* Fade out between 80%-90% (0.8s) */
   100% { opacity: 0; }
 }
+
+html{
+  background-color: #d4f3ea;
+}

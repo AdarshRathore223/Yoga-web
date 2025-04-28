@@ -10,9 +10,10 @@ const Navbar = () => {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "Our Purpose", path: "/purpose" },
-    { name: "Yoga By Organ", path: "/yoga-by-organ" },
+    { name: "Yoga By Organ", path: "/explore" },
     { name: "Contributors", path: "/contributors" },
   ];
+
 
   const isActive = (path) => location.pathname === path;
 
