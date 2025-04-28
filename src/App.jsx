@@ -3,9 +3,9 @@ import Home from "./pages/Home";
 import Contributors from "./pages/Contributors";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import Purpose from "./pages/purpose";
+import Purpose from "./pages/PurposePage"
 import Heart from "./pages/Heart";
-import Lungs from "./pages/lungs";
+import Lungs from "./pages/Lungs";
 import Brain from "./pages/Brain";
 import Digestive from "./pages/Digestive";
 import Spine from "./pages/Spine";
