@@ -5,7 +5,10 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Purpose from "./pages/purpose";
 import Heart from "./pages/Heart";
-
+import Lungs from "./pages/lungs";
+import Brain from "./pages/Brain";
+import Digestive from "./pages/Digestive";
+import Spine from "./pages/Spine";
 function App() {
   return (
     <div className="relative font">
@@ -16,7 +19,12 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/explore" element={<Home />} />
         <Route path="/explore/heart" element={<Heart />} />
+        <Route path="/explore/Lung" element={<Lungs />} />
+        <Route path="/explore/Brain" element={<Brain />} />
+        <Route path="/explore/Digestive" element={<Digestive />} />
+        <Route path="/explore/Spine" element={<Spine />} />
         <Route path="/contributors" element={<Contributors />} />
         <Route path="/purpose" element={<Purpose />} />
       </Routes>

@@ -17,8 +17,6 @@ const cardData = [
     link: "/explore/heart",
     focus: "Boost circulation, open the chest, reduce stress.",
     pose: "Camel Pose, Cobra Pose, Bridge Pose.",
-    description:
-      "These heart-opening poses encourage better blood flow, release tension stored in the upper body, and promote emotional balance. Regular practice can enhance cardiovascular health and instill a deep sense of calm.",
     image: heart,
   },
   {
@@ -47,35 +45,11 @@ const cardData = [
   },
   {
     id: 5,
-    title: "Liver Detox Yoga",
-    link: "/explore/liver",
-    focus: "Stimulate liver function, twist and compress organs.",
-    pose: "Twisting Lunge, Revolved Chair Pose, Bridge Pose.",
-    image: liver,
-  },
-  {
-    id: 6,
-    title: "Kidney Support Yoga",
-    link: "/explore/kidney",
-    focus: "Boost kidney health, stimulate blood filtration.",
-    pose: "Child’s Pose, Cobra Pose, Forward Fold.",
-    image: kidney,
-  },
-  {
-    id: 7,
     title: "Spine & Back Care Yoga",
     link: "/explore/spine",
     focus: "Align and strengthen the spine, prevent back pain.",
     pose: "Cat-Cow Stretch, Downward Dog, Sphinx Pose.",
     image: spine,
-  },
-  {
-    id: 8,
-    title: "Women's Reproductive Health Yoga",
-    link: "/explore/reproductive",
-    focus: "Hormone balance, lower abdominal relaxation.",
-    pose: "Butterfly Pose, Reclined Bound Angle Pose, Goddess Pose.",
-    image: reproductive,
   },
 ];
 
