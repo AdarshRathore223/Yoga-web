@@ -13,12 +13,14 @@ const cards = [
   { image: Adhoimg, name: "Adho Mukha Svanasana" },
   { image: Salambaimg, name: "Salamba Bhujangasana" },
 ];
+
 function SpinePage() {
   const [activeCard, setActiveCard] = useState(0);
+
   return (
-    <div className="mt-20 flex justify-center items-center px-[10%] h-[80vh]">
-      <div className="flex justify-center gap-4">
-        <div className="w-1/2 grid grid-cols-3 gap-2">
+    <div className="mt-20 flex justify-center items-center px-4 lg:px-[10%] h-auto lg:h-[80vh]">
+      <div className="flex flex-col lg:flex-row justify-center gap-4 w-full">
+        <div className="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="col-span-3 bg-[#def7f3] min-h-6 border border-[#254a488f] rounded-lg shadow-lg p-4">
             <h1 className="text-xl font-medium text-[#254a48] hover:underline cursor-pointer">
               Spine & Back Care Yoga
@@ -36,6 +38,7 @@ function SpinePage() {
               inner vitality — creating a strong foundation for a vibrant life.
             </p>
           </div>
+
           {cards.map((card, index) => (
             <div
               key={index}
@@ -46,8 +49,8 @@ function SpinePage() {
             >
               <img
                 src={card.image}
-                alt=""
-                className="min-h-80 object-contain"
+                alt={card.name}
+                className="w-full object-contain"
               />
 
               <h1
@@ -61,8 +64,8 @@ function SpinePage() {
           ))}
         </div>
 
-        <div className="w-1/2 bg-[#def7f3] min-h-6 border border-[#254a488f] rounded-lg shadow-lg p-4">
-         {activeCard === 0 && <Marjaryasana />}
+        <div className="w-full lg:w-1/2 bg-[#def7f3] min-h-6 border border-[#254a488f] rounded-lg shadow-lg p-4">
+          {activeCard === 0 && <Marjaryasana />}
           {activeCard === 1 && <Adho />}
           {activeCard === 2 && <Salamba />}
         </div>

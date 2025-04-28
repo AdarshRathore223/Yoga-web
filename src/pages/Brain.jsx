@@ -13,12 +13,13 @@ const cards = [
   { image: ShirshasanaImage, name: "Shirshasana" },
   { image: PadmasanaImage, name: "Padmasana" },
 ];
+
 function BrainPage() {
   const [activeCard, setActiveCard] = useState(0);
   return (
-    <div className="mt-20 flex justify-center items-center px-[10%] h-[80vh]">
-      <div className="flex justify-center gap-4">
-        <div className="w-1/2 grid grid-cols-3 gap-2">
+    <div className="mt-20 flex justify-center items-center px-4 lg:px-[10%] h-auto lg:h-[80vh]">
+      <div className="flex flex-col lg:flex-row justify-center gap-4 w-full">
+        <div className="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="col-span-3 bg-[#def7f3] min-h-6 border border-[#254a488f] rounded-lg shadow-lg p-4">
             <h1 className="text-xl font-medium text-[#254a48] hover:underline cursor-pointer">
               Brain & Nervous System Yoga
@@ -50,7 +51,6 @@ function BrainPage() {
                 alt=""
                 className="min-h-80 object-contain"
               />
-
               <h1
                 className={`text-center font-medium text-xl ${
                   activeCard === index ? "text-[#254a48]" : "text-[#569b97]"
@@ -62,7 +62,7 @@ function BrainPage() {
           ))}
         </div>
 
-        <div className="w-1/2 bg-[#def7f3] min-h-6 border border-[#254a488f] rounded-lg shadow-lg p-4">
+        <div className="w-full lg:w-1/2 bg-[#def7f3] min-h-6 border border-[#254a488f] rounded-lg shadow-lg p-4">
           {activeCard === 0 && <Balasana />}
           {activeCard === 1 && <Shirshasana />}
           {activeCard === 2 && <Padmasana />}
