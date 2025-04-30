@@ -41,7 +41,7 @@ const Contributors = () => {
               <div>{String(contributor.id).padStart(2, "0")}</div>
               <RiSparklingFill />
             </div>
-            <div className="rounded-full aspect-square overflow-hidden flex justify-center items-center w-24 h-24 mb-4">
+            <div className="rounded-full aspect-square overflow-hidden flex justify-center items-center w-28 h-28 mb-4">
               <img
                 src={contributor.img}
                 alt={contributor.name}
