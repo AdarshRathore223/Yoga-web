@@ -25,7 +25,7 @@ const Hero = () => {
               Kickstart your day with a gentle and energizing yoga flow designed
               to awaken your body and focus your mind.
             </p>
-            <Link href="/purpose" className="mt-8 px-6 py-2 border-2 border-[#254A48] text-[#254A48] rounded-full hover:bg-[#254A48] hover:text-white transition">
+            <Link to="/purpose" className="mt-8 px-6 py-2 border-2 border-[#254A48] text-[#254A48] rounded-full hover:bg-[#254A48] hover:text-white transition">
               Read More
             </Link>
           </div>
