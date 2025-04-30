@@ -3,10 +3,7 @@ import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
 import heart from "../assets/heart.png";
 import lung from "../assets/lung.png";
 import digestive from "../assets/digestive.png";
-import reproductive from "../assets/reproductive.png";
 import brain from "../assets/brain.png";
-import liver from "../assets/liver.png";
-import kidney from "../assets/kidney.png";
 import spine from "../assets/spine.png";
 import { Link } from "react-router-dom";
 

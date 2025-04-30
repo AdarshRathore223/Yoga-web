@@ -12,7 +12,7 @@ const contributorsData = [
   { id: 1, name: "Satwick Sharma", desc: "Developer", img: Satwick },
   { id: 2, name: "Pranjal Jain", desc: "Content Writer", img: pranjal },
   { id: 3, name: "Devendra Kumar Gautam", desc: "Content Writer", img: devendra },
-  { id: 4, name: "Naman Kumar Gupta", desc: "Content Writer", img: Naman },
+  { id: 4, name: "Naman Gupta", desc: "Content Writer", img: Naman },
   { id: 5, name: "Abhinav Kumar Aditya", desc: "Content Writer", img: Abhinav },
   { id: 6, name: "Kishore N.", desc: "Content Writer", img: Kishore },
   // Add more contributors as needed

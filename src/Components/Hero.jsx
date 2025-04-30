@@ -1,5 +1,7 @@
 import img from "../assets/hero.png";
 import { FaAngleDoubleDown } from "react-icons/fa";
+
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="bg-[#d8efea] h-[100vh] shadow-[0_4px_10px_rgba(0,0,0,0.3)] relative w-full">
@@ -23,9 +25,9 @@ const Hero = () => {
               Kickstart your day with a gentle and energizing yoga flow designed
               to awaken your body and focus your mind.
             </p>
-            <a href="/purpose" className="mt-8 px-6 py-2 border-2 border-[#254A48] text-[#254A48] rounded-full hover:bg-[#254A48] hover:text-white transition">
+            <Link href="/purpose" className="mt-8 px-6 py-2 border-2 border-[#254A48] text-[#254A48] rounded-full hover:bg-[#254A48] hover:text-white transition">
               Read More
-            </a>
+            </Link>
           </div>
         </div>
 
